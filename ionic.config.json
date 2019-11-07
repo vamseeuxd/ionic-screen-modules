@@ -1,5 +1,7 @@
 {
   "name": "screen-modules",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
