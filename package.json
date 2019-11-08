@@ -10,7 +10,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "componentModule": "ng generate module components/HorizontalList",
+    "component": "ionic generate component components/HorizontalList",
+    "page": "ionic generate page pages/HorizontalList"
   },
   "private": true,
   "dependencies": {

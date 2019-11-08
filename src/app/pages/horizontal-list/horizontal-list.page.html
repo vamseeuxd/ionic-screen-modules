@@ -1,0 +1,24 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button></ion-back-button>
+        </ion-buttons>
+        <ion-title>HorizontalList</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <app-horizontal-list>
+        <ion-card *ngFor="let option of [1,2,3,4,5,6,7,8,9,10]" style="width: 150px;">
+            <ion-card-header>
+                <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+                <ion-card-title>Card Title</ion-card-title>
+            </ion-card-header>
+
+            <ion-card-content>
+                Keep close to Nature's heart... and break clear away, once in awhile,
+                and climb a mountain or spend a week in the woods. Wash your spirit clean.
+            </ion-card-content>
+        </ion-card>
+    </app-horizontal-list>
+</ion-content>
